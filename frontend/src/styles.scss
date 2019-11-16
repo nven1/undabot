@@ -1,28 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 html, body {
     height: 100vh;
     width: 100vw;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    display: grid;
+    font-family: 'Montserrat', sans-serif;
 }
 
-nav {
-    height: 10vh;
-    background-color: rgb(236, 236, 236);
-    display: flex;
-    align-items: center;
-    padding: 0 0 0 5vh;
-    a {
-        padding: 1vh 2vh;
-        text-decoration: none;
-        color: black;
-        font-size: 1.3em;
-        &:hover {
-            background-color: rgba(255, 255, 255, 0.9);
-        }
-    }
-}
-
-.activePage {
-    text-decoration: underline;
-}

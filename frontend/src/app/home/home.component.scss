@@ -1,0 +1,55 @@
+.homeWrapper {
+    height: 90vh;
+    padding: 0 20vh;
+    overflow: auto;
+    display: grid;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+img {
+    max-width: 100%;
+    justify-self: center;
+    padding: 5vh 0;
+}
+
+.pandaText {
+    margin: 0 15vh;
+    
+    p {
+        margin: 0 4vh;
+        font-size: 1.8em;
+        text-align: justify;
+    }
+    
+}
+
+@media only screen and (max-width: 1100px) {
+    .homeWrapper {
+        padding: 0 0;
+    }
+
+    .pandaText {
+        margin: 0 1vh;
+        p {
+            font-size: 1.2em;
+        }
+    }
+    img { 
+        padding: 5vh 0 0 0;
+    }
+  }
+
+@media only screen and (min-width: 2100px) {
+    h1 {
+        font-size: 5em;
+    }
+    .pandaText {
+        p {
+            font-size: 2.5em;
+        }
+    }
+  }
