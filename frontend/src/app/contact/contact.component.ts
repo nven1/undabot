@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { ValidationService } from '../validation.service';
 
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss']
 })
-export class ContactComponent implements OnInit {
+export class ContactComponent {
 
-  constructor() { }
+  constructor(private validationService: ValidationService) {}
 
-  ngOnInit() {
+  onSubmit(content) {
+    this.validationService.validateForm(content);
   }
-
 }
