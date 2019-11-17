@@ -6,10 +6,7 @@ Angular frontend, node and express backend
 
 NodeJS (with npm) installed
 
-Angular
-```bash
-npm install -g @angular/cli
-```
+Angular and Express installed
 
 ## Starting up
 
@@ -22,7 +19,7 @@ cd backend
 ```bash
 npm run dev
 ```
-Open an another instance of terminal
+Open an another instance of terminal and start the Angular app server
 ```bash
 cd frontend
 ```
